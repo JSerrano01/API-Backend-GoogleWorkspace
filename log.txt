@@ -1,0 +1,3 @@
+Ya existe el usuario: alexandra.moncada@colmayor.edu.co (razón: Employee ID)
+Ya existe el usuario: victor.arteaga@colmayor.edu.co (razón: Employee ID)
+Ya existe el usuario: jose.hurtado@colmayor.edu.co (razón: Employee ID)

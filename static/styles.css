@@ -1,0 +1,90 @@
+.logo-google {
+    /* display: block; */
+    margin: 0 auto;
+    width: 80%;
+    /* Ajusta el tamaño según lo que necesites */
+    max-width: 200px;
+    /* Puedes limitar el tamaño máximo si lo deseas */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+.logo-google-login {
+    /* display: block; */
+    margin: 0 auto;
+    width: 10%;
+    /* Ajusta el tamaño según lo que necesites */
+    max-width: 200px;
+    /* Puedes limitar el tamaño máximo si lo deseas */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+#wrapper #content-wrapper {
+    background-image: url("{{ url_for('static', filename='img/Fondo_Colmayor.jpg') }}");
+}
+
+.sidebar {
+    background: linear-gradient(to bottom, #F29F05, #F2B705);
+}
+
+.sidebar .sidebar-brand{
+    background-color: #038C7F;
+    box-shadow: 10%;
+    border-radius: 2%;
+}
+
+.sidebar-brand-text sup img {
+    width: 20px;
+    /* Tamaño más pequeño para el logo en el sup */
+    height: auto;
+    vertical-align: middle;
+    /* Asegura alineación correcta */
+}
+
+.logo-colmayor {
+    display: block;
+        margin: 10 auto;
+        width: 80%;
+        /* Ajusta el tamaño según lo que necesites */
+        max-width: 200px;
+        /* Puedes limitar el tamaño máximo si lo deseas */
+        height: auto;
+        /* Mantiene la proporción de la imagen */
+}
+
+.logo-colmayor-login {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    /* Ajusta el tamaño según lo que necesites */
+    max-width: 200px;
+    /* Puedes limitar el tamaño máximo si lo deseas */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+.bg-navbar {
+    background-color: #025951;
+}
+
+.sidebar-dark .nav-item .nav-link i {
+    color: rgb(255, 255, 255);
+}
+
+.Fondo-Colmayor {
+    background-image: url("{{ url_for('static', filename='img/Fondo_Colmayor.jpg') }}");
+}
+
+.btn-colmayor {
+    color:white;
+    background-color: #F29F05;
+}
+
+.btn-colmayor:hover {
+    color: #025951;
+}
+
+.txt-colmayor {
+    color: #025951;
+}
